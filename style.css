@@ -17,7 +17,7 @@ html {
 }
 
 body {
-    font-family: Georgia, "Hobo std", serif;
+    font-family: Georgia, "Times New Roman", serif;
     background: #ffffff;
     color: #222;
     padding: 30px 14px;
@@ -163,6 +163,31 @@ hr {
 
 .review em {
     font-style: italic;
+}
+
+/* ==========================
+   Events
+========================== */
+
+.event {
+    margin-bottom: 22px;
+}
+
+.event strong {
+    color: #b73a34;
+}
+
+.event .event-title {
+    color: #666666;
+}
+
+.event .event-venue {
+    color: #4c5139;
+    font-style: italic;
+}
+
+.event .event-description {
+    color: #222;
 }
 
 /* ==========================
